@@ -1,0 +1,25 @@
+
+body{
+    background-image: url(page.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size:cover;
+
+}
+
+button{
+    
+    padding: 8px 14px;
+    font-size: 24px;
+    font-weight:500;
+    cursor: pointer;
+    border: 2px solid  #0f172a;
+    box-shadow: 2px 2px 0 0 white, 4px 4px 0 0 #0f172a;
+    transition-duration: 200ms;
+
+}
+button:hover{
+    box-shadow: 3px 3px white 6px 6px 0 0  #0f172a;
+    transform: translate(-2px, -2px);
+}
